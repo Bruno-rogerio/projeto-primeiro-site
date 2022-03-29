@@ -5,7 +5,6 @@
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(#8B0000, #CD5C5C);
-    transition: 2s;
 }
 .cabecalho__titulo
 {
@@ -23,8 +22,9 @@
     color: #FFFFFF;
     padding: 8px;
     background-color: #B2222290;
+    transition: 1s;
 }
-.cabecalho__titulo span:hover
+.cabecalho__titulo a:hover
 {
     color: #8B0000
 }
