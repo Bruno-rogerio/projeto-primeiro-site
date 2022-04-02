@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="portifolio.css">
+    <link rel="stylesheet" href="rede-sociais.css">
+    <link rel="stylesheet" href="intereses.css">
     <title>Portifolio | Bruno</title>
 </head>
 <body>
@@ -20,25 +23,85 @@
             <ul class="lista__navegacao__cabecalho">
                 <li class="itens__navegacao__cabecalho"><a href="#"><ion-icon name="accessibility-outline"></ion-icon>Sobre</a></li>
                 <li class="itens__navegacao__cabecalho"><a href="#"><ion-icon name="albums-outline"></ion-icon>Portifolio</a></li>
-                <li class="itens__navegacao__cabecalho"><a href="#"><ion-icon name="paper-plane-outline"></ion-icon>Contato</a></li>
                 <li class="itens__navegacao__cabecalho"><a href="#"><ion-icon name="people-outline"></ion-icon>Redes sociais</a></li>
                 <li class="itens__navegacao__cabecalho"><a href="#"><ion-icon name="school-outline"></ion-icon>Intereses</a></li>
             </ul>
         </nav>
     </header>
-    <section class="sobre">
-        <h2 class="sobre__titulo">Sobre</h2>
-        <div class="sobre__caixa">
-            <img class="sobre__imagem" src="img/FotoPerfil.jpg" alt="foto do autor homen branco com camiseta cinza">
-            <p class="sobre__paragrafo">Eu sou o <span>Bruno Rogério</span>, moro na cidade de São Paulo.  
-                Conheci a programação e fiquei imprecionado com as possibilidades e decidi que é isso 
-                que eu quero fazer na vida.<br>
-                Comecei a estudar, e aqui vou demonstrar alguns projetos que eu desenvolvi.<br>
-                Espero que esse portifolio me possibilite oportunidades e inspire 
-                outras pessoas que queiram entrar nessa área que eu me apaixoinei.     
-            </p>
-        </div>
-    </section>
+    <main>
+        <section class="sobre">
+            <h2 class="sobre__titulo">Sobre</h2>
+            <div class="sobre__caixa">
+                <img class="sobre__imagem" src="img/FotoPerfil.jpg" alt="foto do autor homen branco com camiseta cinza">
+                <p class="sobre__paragrafo">Eu sou o <span>Bruno Rogério</span>, moro na cidade de São Paulo.  
+                    Conheci a programação e fiquei imprecionado com as possibilidades e decidi que é isso 
+                    que eu quero fazer na vida.<br>
+                    Comecei a estudar, e aqui vou demonstrar alguns projetos que eu desenvolvi.<br>
+                    Espero que esse portifolio me possibilite oportunidades e inspire 
+                    outras pessoas que queiram entrar nessa área que eu me apaixoinei.     
+                </p>
+            </div>
+        </section>
+        <section class="portifolio">
+            <h2 class="portifolio__titulo">Portifolio</h2>
+            <div class="portifolio__caixa">
+                <a class="portifolio__link" href="#">
+                    <article class="portifolio__artigos">
+                        <img class="portifolio__imagem" src="img/capa.jpg" alt="imagem do projeto">
+                        <h3 class="portifolio__titulo--descricao">Teclado virtual</h3>
+                        <p class="portifolio__descricao">Este projeto é um teclado virtual, que foi desenvolvido em html, css e javascript.</p>
+                    </article>
+                </a>
+                <a class="portifolio__link" href="#">
+                    <article class="portifolio__artigos">
+                        <img class="portifolio__imagem" src="img/capa.jpg" alt="imagem do projeto">
+                        <h3 class="portifolio__titulo--descricao">Teclado virtual</h3>
+                        <p class="portifolio__descricao">Este projeto é um teclado virtual, que foi desenvolvido em html, css e javascript.</p>
+                    </article>
+                </a>
+                <a class="portifolio__link" href="#">
+                    <article class="portifolio__artigos">
+                        <img class="portifolio__imagem" src="img/capa.jpg" alt="imagem do projeto">
+                        <h3 class="portifolio__titulo--descricao">Teclado virtual</h3>
+                        <p class="portifolio__descricao">Este projeto é um teclado virtual, que foi desenvolvido em html, css e javascript.</p>
+                    </article>
+                </a>
+                <a class="portifolio__link" href="#">
+                    <article class="portifolio__artigos">
+                        <img class="portifolio__imagem" src="img/capa.jpg" alt="imagem do projeto">
+                        <h3 class="portifolio__titulo--descricao">Teclado virtual</h3>
+                        <p class="portifolio__descricao">Este projeto é um teclado virtual, que foi desenvolvido em html, css e javascript.</p>
+                    </article>
+                </a>
+            </div>
+        </section>
+        <section class="rede-sociais">
+            <h2 class="rede-sociais__titulo">Rede Sociais</h2>
+            <p class="rede-sociais__descricao"></p>
+            <ul class="rede-sociais__lista">
+                <li class="rede-sociais__itens"><a class="facebook" href="#">Facebook</a></li>
+                <li class="rede-sociais__itens"><a class="instagram" href="#">Instagram</a></li>
+                <li class="rede-sociais__itens"><a class="linkdin" href="#">LinkDin</a></li>
+                <li class="rede-sociais__itens"><a class="github" href="#">GitHub</a></li>
+            </ul>    
+        </section>
+        <section class="intereses">
+            <h1 class="intereses__titulo">Intereses</h1>
+            <ul class="interese__lista">
+                <li class="interese__itens">Html</li>
+                <li class="interese__itens">css</li>
+                <li class="interese__itens">javascript</li>
+                <li class="interese__itens">react</li>
+                <li class="interese__itens">sql</li>
+                <li class="interese__itens">mobile</li>
+                <li class="interese__itens">git</li>
+                <li class="interese__itens">GitHub</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="rodape">
+        
+    </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
     <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

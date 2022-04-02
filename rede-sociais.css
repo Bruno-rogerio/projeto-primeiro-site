@@ -1,0 +1,42 @@
+.rede-sociais
+{
+    background: linear-gradient(#000000 20%, #8B0000 70%, #CD5C5C);
+}
+.rede-sociais__titulo
+{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 64px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.rede-sociais__itens
+{
+    text-align: center;
+    padding-bottom: 32px;
+}
+.rede-sociais__itens a
+{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 35px;
+}
+.facebook
+{
+    color: #0000ff;
+}
+.instagram
+{
+    color: #df4b63;
+}
+.linkdin
+{
+    color: #6b6bdb;
+}
+.github
+{
+    color: #000000;
+}
